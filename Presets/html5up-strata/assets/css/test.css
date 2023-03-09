@@ -1,0 +1,63 @@
+body {
+    background-color : #000000;
+    color : #ffffff
+}
+
+h1 {
+    color : red;
+}
+
+h3 {
+    color : yellow
+}
+
+p {
+    color : blue
+}
+
+li {
+    color : purple
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+.image {
+    border-radius: 0.35em;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+    .image.avatar {
+        border-radius: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width: 15%;
+    }
+
+        .image.avatar img {
+            border-radius: 100%;
+            width: 100%;
+        }
+
+    .project_img {
+        border-radius: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+
+    .project_img img {
+            border-radius: 100%;
+            width: 50%;
+        }
+    
