@@ -2043,7 +2043,7 @@ html, body {
 
 .section-quote p {
   margin-top: 0;
-  font-size: 36px;
+  font-size: 18px;
 }
 
 .section-quote p span {
@@ -2052,7 +2052,7 @@ html, body {
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(../img/ml-bg.jpg) center no-repeat fixed;
 }
 
 .section-me h2 {
