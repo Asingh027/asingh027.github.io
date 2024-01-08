@@ -4,10 +4,8 @@ import Career from './components/Career.jsx';
 import Projects from './components/Projects.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
-import profPic from './images/profpic.png'
+import AS from './images/AS.png'
 import Starfield from './components/starfield.tsx';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 function App() {
 
@@ -16,7 +14,7 @@ function App() {
     const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
   link.type = 'image/png';
   link.rel = 'icon';
-  link.href = profPic;
+  link.href = AS;
   document.getElementsByTagName('head')[0].appendChild(link);
   }, []);  
 
