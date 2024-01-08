@@ -1,0 +1,37 @@
+{
+    "Programming Languages": [
+        "Python",
+        "R",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React"
+    ],
+    "Tools & Software": [
+        "AWS (EC2, S3, SageMaker)",
+        "Google BigQuery",
+        "Git (GitHub, GitLab)",
+        "Docker",
+        "Tableau",
+        "PowerBI"
+    ],
+    "Machine Learning Packages": [
+        "Pandas",
+        "NumPy",
+        "NLTK",
+        "PyTorch",
+        "TensorFlow",
+        "Flask",
+        "Pickle",
+        "OpenAI",
+        "LangChain"
+    ],
+    "Soft Skills": [
+        "Self-sufficient",
+        "Collaborative",
+        "Problem Solver",
+        "Communicative"
+    ]
+}
