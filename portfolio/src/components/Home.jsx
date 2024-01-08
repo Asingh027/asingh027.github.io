@@ -14,6 +14,28 @@ const float = keyframes`
 `;
 
 // Styled Components
+const ContactBox = styled.div`
+  margin-top: 10px; // Space between icons and contact box
+  padding: 15px;
+  color: white;
+  text-align: center;
+`;
+
+const ContactText = styled.p`
+  margin: 1px; // Remove default margin
+  font-size: 1.4em;
+  a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: gray;
+    }
+  }
+`;
+
 const HomeContainer = styled.div`
   height: 100vh; // Full viewport height
   display: flex;
@@ -90,6 +112,10 @@ function Home() {
     <HomeContainer>
       <ProfileImage src={profPic} alt="Profile Picture"/>
       <Title>Avneet Singh</Title>
+      <ContactBox>
+        <ContactText>Data Scientist @<a href="https://rackn.com">RackN</a></ContactText>
+        <ContactText><a href="mailto:as696@njit.edu">as696@njit.edu</a></ContactText>
+      </ContactBox>
       <SocialLinks>
         <a href="https://www.linkedin.com/in/avneetsinghurl" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
