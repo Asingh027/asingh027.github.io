@@ -6,7 +6,7 @@ import projects from '../projects.json';
 
 const StyledLink = styled(Link)`
   margin: 0 20px;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
   transition: transform 0.3s;
@@ -23,6 +23,7 @@ const StyledLink = styled(Link)`
     color: white;
     text-decoration: none;
     transition: transform 0.3s;
+    top: 5%;
 
     &:hover {
       transform: scale(1.2);

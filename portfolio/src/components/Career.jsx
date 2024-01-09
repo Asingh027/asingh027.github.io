@@ -17,7 +17,7 @@ const CareerPage = styled.div`
 
 const StyledLink = styled(Link)`
   margin: 0 20px;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
   transition: transform 0.3s;
@@ -41,6 +41,7 @@ const StyledLink = styled(Link)`
 
     @media (max-width: 600px) {
       margin: 0 10px;
+      top:5%;
     }
   }
 `;

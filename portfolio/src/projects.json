@@ -21,6 +21,6 @@
             "Implemented an end-to-end MLOps pipeline for delivery optimization using AWS services such as S3 and SageMaker.",
             "Utilizing state-of-the-art ML algorithms such as KMeans and DBScan to minimize fuel consumption and delivery time of each route, and comparing their performance to select the optimal algorithm for the task."
         ],
-        "repo_link": "null"
+        "repo_link": null
     }
 ]

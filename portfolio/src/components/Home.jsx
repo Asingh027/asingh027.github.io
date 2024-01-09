@@ -103,6 +103,14 @@ const Navigation = styled.div`
 
     @media (max-width: 600px) {
       margin: 0 10px;
+      display: flex;
+      font-size: 20px;
+      align-items: flex-end;
+      height: 320px;
+
+      &:hover {
+      transform: scale(1);
+    }
     }
   }
 `;
