@@ -9,7 +9,8 @@
             "Developed a chatbot using Langchain customization to assist users with troubleshooting. The chatbot accesses vector-stored documentation and utilizes OpenAI's API for responses. Aimed to lower expertise barriers and reduce support ticket submissions.",
             "Demonstrated strong communication skills and professionalism by effectively documenting updates, goals, steps, and approach via GitLab."
         ],
-        "repo_link": null
+        "repo_link": null,
+        "icon": "comments"
     },
     {
         "name": "Oil Transportation Route Optimization",
@@ -21,6 +22,7 @@
             "Implemented an end-to-end MLOps pipeline for delivery optimization using AWS services such as S3 and SageMaker.",
             "Utilizing state-of-the-art ML algorithms such as KMeans and DBScan to minimize fuel consumption and delivery time of each route, and comparing their performance to select the optimal algorithm for the task."
         ],
-        "repo_link": null
+        "repo_link": null,
+        "icon": "map-signs"
     }
 ]

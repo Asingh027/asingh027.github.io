@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaMapMarkedAlt, FaComments } from 'react-icons/fa';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import projects from '../projects.json';
@@ -67,6 +67,11 @@ const ProjectCard = styled.div`
 
 const ProjectTitle = styled.h2`
   margin-top: 0;
+  
+  .project-icon{
+    vertical-align: text-bottom;  
+    margin-right: 5px;
+  }
 `;
 
 const ProjectSkills = styled.div`
@@ -108,8 +113,16 @@ const RepoLink = styled.a`
   }
 `;
 
-
-// ... other styled components ...
+const getIcon = (iconName) => {
+  switch (iconName) {
+    case "comments":
+      return <FaComments className = "project-icon" size="1.5em" />;
+    case "map-signs":
+      return <FaMapMarkedAlt className = "project-icon" size="1.5em" />;
+    default:
+      return null; // or any default icon if needed
+  }
+}
 
 function Projects() {
   return (
@@ -117,7 +130,7 @@ function Projects() {
       <Title>Projects</Title>
       {projects.map((project, index) => (
         <ProjectCard key={index}>
-          <ProjectTitle>{project.name}</ProjectTitle>
+          <ProjectTitle> {getIcon(project.icon)} {project.name}</ProjectTitle>
           <ProjectSkills>
             {project.skills.map((skill, skillIndex) => (
               <Skill key={skillIndex}>{skill}</Skill>
