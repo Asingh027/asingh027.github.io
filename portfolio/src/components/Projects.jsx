@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaMapMarkedAlt, FaComments } from 'react-icons/fa';
+import { FaGithub, FaMapMarkedAlt, FaComments, FaScroll } from 'react-icons/fa';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import projects from '../projects.json';
@@ -30,6 +30,8 @@ const StyledLink = styled(Link)`
     }
 
     @media (max-width: 600px) {
+      position: sticky
+      top: 10px;
       margin: 0 10px;
     }
   }
@@ -113,6 +115,21 @@ const RepoLink = styled.a`
   }
 `;
 
+const ArticleLink = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: right;
+  svg {
+    margin-right: 0.5rem;
+  }
+  &:hover {
+    color: #ccc;
+  }
+`;
+
+
 const getIcon = (iconName) => {
   switch (iconName) {
     case "comments":
@@ -130,7 +147,7 @@ function Projects() {
       <Title>Projects</Title>
       {projects.map((project, index) => (
         <ProjectCard key={index}>
-          <ProjectTitle> {getIcon(project.icon)} {project.name}</ProjectTitle>
+          <ProjectTitle> {getIcon(project.icon)} {project.name} </ProjectTitle>
           <ProjectSkills>
             {project.skills.map((skill, skillIndex) => (
               <Skill key={skillIndex}>{skill}</Skill>
@@ -144,14 +161,16 @@ function Projects() {
           {project.repo_link ? (
             <RepoLink href={project.repo_link} target="_blank" rel="noopener noreferrer">
               <FaGithub size="1.5em" />
-              GitHub Repo
+              GitHub Repo - Take a look under the hood!
             </RepoLink>
           ) : (
             <RepoLink as="span">
               <FaGithub size="1.5em" />
-              GitHub Repo - Not Currently Available
+              GitHub Repo - Not Currently Available :(
             </RepoLink>
           )}
+          <br/>
+          <ArticleLink target = "_blank" href={project.article} rel="noopener noreferrer"><FaScroll size="1.5em" border = "20px"></FaScroll>Article Link - Find out more here!</ArticleLink>
         </ProjectCard>
       ))}
       <StyledLink to="/">← Back</StyledLink>

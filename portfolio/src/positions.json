@@ -1,42 +1,47 @@
 [
-    {
-      "id": "RackN",
-      "title": "AI/ML Intern",
-      "link": "https://www.rackn.com",
-      "location": "Freehold, NJ",
-      "duration": "April 2023 to Present",
-      "tasks": [
-        "Spearheaded the deployment of RackGPT, an AI-driven chatbot projected to result in a 20% reduction in customer support ticket submissions and a 15% increase in user productivity within the Digital Rebar UX platform, using Langchain, OpenAI products, and HuggingFace.",
-        "Assessed, selected, and implemented Langchain as the primary tech stack, streamlining knowledge referencing and enhancing the performance of RackGPT, while also managing a comprehensive dataset of 10,000+ documentation entries for efficient user assistance."
-      ]
-    },
-    {
-      "id": "ViViHealth",
-      "title": "Data Scientist Intern",
-      "link": "https://www.vivihealth.com",
-      "location": "Newark, NJ",
-      "duration": "September 2023 to December 2023",
-      "tasks": [
-        "Confirmed prediction of alcohol craving events is possible with 75% accuracy by implementing multiple supervised, unsupervised, and neural network-based machine learning models.",
-        "Conducted Exploratory Data Analysis via SQL queries & Python to analyze and visualize relevant data.",
-        "Generated ML-ingestible dataset by combining 3-4 tables with ~2-million-row datasets from ViviHealth’s Google BigQuery database.",
-        "Developed deployment plan for how ViviHealth can implement the Craving Detection model into their systems."
-      ]
-    },
-    {
-      "id": "BigDataRhino",
-      "title": "Data Scientist Intern",
-      "link": "https://bigdatarhino.com/en-us/home",
-      "location": "Freehold, NJ",
-      "duration": "October 2022 to April 2023",
-      "tasks": [
-        "Pioneered the development and implementation of machine learning applications within the oil & gas industry to optimize operations, reduce costs, and enhance efficiency.",
-        "Led client-facing meetings, presenting ML capabilities, addressing concerns, & fostering collaboration.",
-        "Curated public oil & gas datasets, structuring data in the company database for informed decision-making.",
-        "Developed data visualizations using PowerBI/Tableau to communicate industry insights.",
-        "Authored articles providing insight into carbon emissions and ML solutions.",
-        "Crafted client proposals showcasing expertise, accomplishments, and value proposition."
-      ]
-    }
-  ]
-  
+  {
+    "id": "RackN",
+    "title": "AI/ML Intern",
+    "subheader": "Retrieval-Augmented Generative Chatbot",
+    "link": "https://www.rackn.com",
+    "location": "Freehold, NJ",
+    "duration": "April 2023 to Present",
+    "tasks": [
+      "Spearheaded the creation, launch, and management of RackGPT, an AI chatbot aiming to reduce customer support tickets by 20% and boost user productivity by 15% on the Digital Rebar UX platform.",
+      "Utilized Langchain, OpenAI products, and HuggingFace to build and optimize RackGPT, and implemented Langchain to improve information retrieval and enhance RackGPT's performance.",
+      "Developed and deployed generative (T5, GPT) machine learning models and products, both internally and externally, to support the organization's goals.",
+      "Evaluated the model's performance using appropriate metrics and testing methodologies.",
+      "Ensured models are integrated into the organization's infrastructure and systems."
+    ]
+  },
+  {
+    "id": "ViViHealth",
+    "title": "Data Scientist Intern",
+    "subheader": "Craving Detection Algorithm",
+    "link": "https://www.vivihealth.com",
+    "location": "Newark, NJ",
+    "duration": "September 2023 to December 2023",
+    "tasks": [
+      "Utilized SQL and Python to analyze and consolidate large datasets from ViviHealth's Google BigQuery database.",
+      "Maintained thorough documentation of data sources, methods, and code for transparency.",
+      "Implemented 8–10 machine learning models to identify the most predictive one and created a deployment plan for implementing the Craving Detection model into ViviHealth's systems.",
+      "Developed predictive and classification models using machine learning algorithms and evaluated model performance using appropriate metrics.",
+      "Developed expertise in the specific domain or industry to better understand the context of data and business objectives."
+    ]
+  },
+  {
+    "id": "BigDataRhino",
+    "title": "Data Scientist Intern", 
+    "subheader": "Route Optimization Algorithm",
+    "link": "https://bigdatarhino.com/en-us/home",
+    "location": "Freehold, NJ",
+    "duration": "October 2022 to April 2023",
+    "tasks": [
+      "Spearheaded the creation and deployment of advanced machine learning applications in the oil and gas sector for operational optimization, cost reduction, and improved efficiency.",
+      "Directed client meetings to showcase machine learning expertise, resolve queries, and promote collaboration.",
+      "Produced impactful data visualizations with PowerBI and Tableau for industry insights and authored insightful articles on carbon emissions and ML solutions.",
+      "Cleaned and preprocessed data to ensure its quality, consistency, and suitability for analysis.",
+      "Interpreted and communicated the results of data analyses to both technical and non-technical audiences."
+    ]
+  }
+]

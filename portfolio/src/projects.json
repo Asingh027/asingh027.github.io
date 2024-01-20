@@ -10,7 +10,8 @@
             "Demonstrated strong communication skills and professionalism by effectively documenting updates, goals, steps, and approach via GitLab."
         ],
         "repo_link": null,
-        "icon": "comments"
+        "icon": "comments", 
+        "article": "https://rackn.com/2023/09/26/can-rackn-use-llms-to-improve-customer-experience/"
     },
     {
         "name": "Oil Transportation Route Optimization",

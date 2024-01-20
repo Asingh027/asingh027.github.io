@@ -75,13 +75,13 @@ const PositionContainer = styled.div`
 const PositionHeader = styled.div`
   display: flex;
   align-items: center;
-  width: 100%;
+  width: auto;
   margin-bottom: 1rem;
 `;
 
 const PositionImage = styled.img`
   height: auto;
-  width: 96px; // Adjusted size as per your request
+  width: 150px; 
   margin-right: 20px;
   border-radius: 10px;
 `;
@@ -90,6 +90,12 @@ const PositionTitle = styled.h3`
   font-size: 1.8em;
   color: #ccc;
 `;
+
+const PositionSubtitle = styled.h4`
+  font-size: 1em;
+  color: #ccc;
+`;
+
 
 const PositionDetails = styled.p`
   font-size: 1.1em;
@@ -135,6 +141,7 @@ function Career() {
               </a>
               <div>
                 <PositionTitle>{position.title}</PositionTitle>
+                <PositionSubtitle>{position.subheader}</PositionSubtitle>
                 <PositionDetails>
                   {position.location} — {position.duration}
                 </PositionDetails>
