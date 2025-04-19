@@ -5,6 +5,7 @@ import positions from '../positions.json';
 import RackN from '../images/RackN.png';
 import BDR from '../images/BDR.png';
 import VVH from '../images/VVH.png';
+import JATF from '../images/JATF.png';
 
 // Styled components
 const CareerPage = styled.div`
@@ -123,6 +124,8 @@ const getImageForPosition = (positionTitle) => {
       return BDR;
     case 'ViViHealth':
       return VVH;
+    case 'VES':
+      return JATF;
     default:
       return ''; // Default image or empty string
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled, {keyframes} from 'styled-components';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import profPic from '../images/profpic.png';
 
 const float = keyframes`
@@ -121,10 +121,12 @@ function Home() {
       <ProfileImage src={profPic} alt="Profile Picture"/>
       <Title>Avneet Singh</Title>
       <ContactBox>
-        <ContactText>Data Scientist @<a href="https://rackn.com">RackN</a></ContactText>
-        <ContactText><a href="mailto:as696@njit.edu">as696@njit.edu</a></ContactText>
+        <ContactText>Software Engineer @<a href="https://ves.solutions">VES Solutions</a></ContactText>
       </ContactBox>
       <SocialLinks>
+        <a href="mailto:avneetsingh.007@gmail.com" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope />
+        </a>
         <a href="https://www.linkedin.com/in/avneetsinghurl" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>

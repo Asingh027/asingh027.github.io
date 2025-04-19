@@ -1,3 +1,3 @@
 ## Portfolio
 
-This is the GitHub repository containing information for my professional portfolio as a data scientist. 
+This GitHub Repository contains code for Avneet Singh's professional career history. 

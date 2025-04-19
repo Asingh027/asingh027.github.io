@@ -1,11 +1,26 @@
 [
   {
+    "id": "VES",
+    "title": "Junior Software Engineer", 
+    "subheader": "AI/ML Engineer",
+    "link": "https://www.socom.mil/st/Pages/JATF.aspx",
+    "location": "Tampa, FL",
+    "duration": "April 2024 to Present",
+    "tasks": [
+      "Acted as Lead AI SME with rapid-prototyping team, informing leadership of quality of AI technology/vendors.",
+      "Led AI-oriented efforts in developing solutions to reduce cognitive load of military operators in a variety of areas, including computer vision, object character recognition, image processing, and edge computing.", 
+      "Served as AI/ML SME and JATF representative while traveling on tech-scouting events, networking with industry professionals and identifying companies for integration with SOCOM-wide impact.", 
+      "Provided additional engineering support beyond AI solutions, quickly developing and iterating on software solutions to enhance the spread of information and dynamically connect components of a system.",
+      "Implemented ML models from research papers to meet mission requirements with 2-week turnaround."
+    ]
+  },
+  {
     "id": "RackN",
     "title": "AI/ML Intern",
     "subheader": "Retrieval-Augmented Generative Chatbot",
     "link": "https://www.rackn.com",
     "location": "Freehold, NJ",
-    "duration": "April 2023 to Present",
+    "duration": "April 2023 to April 2024",
     "tasks": [
       "Spearheaded the creation, launch, and management of RackGPT, an AI chatbot aiming to reduce customer support tickets by 20% and boost user productivity by 15% on the Digital Rebar UX platform.",
       "Utilized Langchain, OpenAI products, and HuggingFace to build and optimize RackGPT, and implemented Langchain to improve information retrieval and enhance RackGPT's performance.",
