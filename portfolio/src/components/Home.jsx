@@ -122,6 +122,7 @@ function Home() {
       <Title>Avneet Singh</Title>
       <ContactBox>
         <ContactText>Software Engineer @<a href="https://ves.solutions">VES Solutions</a></ContactText>
+        <ContactText>Resume available upon request</ContactText>
       </ContactBox>
       <SocialLinks>
         <a href="mailto:avneetsingh.007@gmail.com" target="_blank" rel="noopener noreferrer">
